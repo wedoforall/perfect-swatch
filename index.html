@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Swatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fe1e26d21.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1 class="logo-text"> <span>P</span>erfect <span>S</span>watch</h1>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Our products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Welcome to<br> <span>Perfect Swatch</span></h1>
+                
+                 
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------------------------------
+                            ABOUT
+    ------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                
+                    <p class="about-text">
+                        Welcome to <span class="brand-name"</span> A <span>Perfect swatch</span> for the sexual healthcare and wellness
+                        Perfect swasth is a blend of Ayurveda and modern science that specializes in improving the sexual disorder in men.
+                        With the support of our experienced doctors and dieticians we aim to address and treat the male sexual disorders and pioneer men’s wellness. We use 100% pure herbs with a touch of modern science and 100% guidance from the healthcare professionals.
+                    </p> 
+                        <br>
+                        <h1>OUR TEAMS</h1>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">CEO</p>
+                        <p class="tab-links" onclick="opentab('experience')">Doctors</p>
+                        <p class="tab-links" onclick="opentab('education')">Delivery</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Anish Khurana</span><br>CEO at Perfect Swatch</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <!-- <ul>
+                            <li><span>2023 - Current</span><br>CEO at Soft Tech Solution</li>
+                            <li><span>2019 - 2022</span><br>Company - Mina Enterprises</li>
+                            <!-- <li><span>2019 - 2020</span><br> ekart eCommerce</li> -->
+                        <!-- </ul> --> 
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <!-- <ul>
+                            <li><span>2018 - 2020</span><br>ITI In Electrician At Bihar ITI College</li>
+                            <li><span>2015 - 2018</span><br>Diploma in Civil Engg At Government Polytechnic Manesar</li>
+                            <li><span>2014</span><br>Matriculation at CBSE Board</li>
+                        </ul> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------
+                            SERVICES
+    ------------------------------------------------------------ -->
+   <div id="services">
+    <div class="contaiiner">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-notes-medical"></i>
+                <h2>Sex Specialist</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Unde, sunt dolor sit suscipit aspernatur eveniet itaque.</p>
+                     <a href="#">Learn more</a>
+              </div>
+            <div>
+                <i class="fa-solid fa-pills"></i>
+                <h2>Premature Ejaculation Treatment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde, sunt dolor sit suscipit aspernatur eveniet itaque.</p>
+                    <a href="#">Learn more</a>
+             </div>
+          <div>
+            <i class="fa-solid fa-droplet-slash"></i>
+                <h2>Night Fall Treatment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde, sunt dolor sit suscipit aspernatur eveniet itaque.</p>
+                    <a href="#">Learn more</a>
+           </div>
+         </div>
+
+         <!-- -------------------------------------------------
+                            PORTFOLIO
+         ------------------------------------------------------ -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Our Profucts</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.jpg">
+                        <div class="layer">
+                            <h3>Electronics Equipments</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, esse.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpg">
+                        <div class="layer">
+                            <h3>Workshop Equipments</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, esse.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.jpg">
+                        <div class="layer">
+                            <h3>ITI Equipments</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, esse.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+         </div>
+
+
+        <!-- -------------------------------------------------------
+                            CONTACT
+        ------------------------------------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> perfectswatch@glive.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8340153647</p>
+                    <p><i class="fa-solid fa-location-dot"></i> M-107 Sector 66, Noida (UP)-201301</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                   </div>
+                <!-- <a href="images/my-cv.pdf" download class="btn bt2">Certificates</a>
+                <a href="https://minaenterprises.store/" target="_blank" class="btn bt2">Website</a> -->
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>            
+           </div>
+       </div>
+   </div>
+   <div class="copyright">
+    <p>Copyright © Perfect Swatch. Made <i class="fa-solid fa-heart"></i> by Rachit Sharma</p>
+   </div>
+</div>
+
+
+<!-- ------------------------Jump--------- -->
+<!-- <div id="scroll-to-top">
+    <a href="#" onclick="scrollToTop()">Top</a>
+</div> -->
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------
+                            JAVA SCRIPT
+-------------------------------------------------------------------------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<!-- -----------------------------FOR RESPONSIVE NEV BAR------------------------- -->
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- ------------------Jump------------ -->
+    <!-- <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        }
+    </script> -->
+    
+
+
+</body>
+</html>
